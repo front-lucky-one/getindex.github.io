@@ -1088,7 +1088,8 @@ a#compare{
           background:-webkit-linear-gradient(left, #4facfe 0%, #4facfe 100%);
           background:linear-gradient(to right, #4facfe 0%, #4facfe 100%); }
 .course-meta{
-  position:relative; }
+  position:relative;
+  margin-bottom:5px; }
 .course-meta .btn{
     padding:15px; }
 .ribbon{
@@ -1199,8 +1200,10 @@ a#compare{
     width:50%;
     text-transform:capitalize; }
 .course-content__name{
+    display:block;
     font-weight:bold;
-    font-size:25px; }
+    font-size:25px;
+    margin-bottom:18px; }
 @media screen and (max-width: 575px){
     .course-content{
       padding:15px; } }
@@ -1212,13 +1215,13 @@ a#compare{
 .course-content .course-content__wrapp-btn a{
       padding:0px 9px;
       text-transform:uppercase;
-      background:#000;
+      background:#2ac528;
       color:#fff;
       font-size:10px; }
 .course-content .course-content__wrapp-btn a.rent{
         background:#5a8dee; }
 .course-content .course-content__wrapp-btn a.sell{
-        background:#2ac528; }
+        background:#4285f4; }
 .course-content .course-content__wrapp-btn a.used{
         position:relative; }
 .course-content .course-content__wrapp-btn a.sold{
